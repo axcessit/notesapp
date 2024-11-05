@@ -26,10 +26,26 @@ function App() {
         </p>
       </div>
       <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
+        Click on the Vite and React logos to learn more!!!!
       </p>
     </>
   )
 }
 
-export default App
+import reactLogo from "./assets/react.svg";
+import "./App.css";
+
+function App() {
+  return (
+    <div className="App">
+      <header className="App-header">
+        <img src={reactLogo} className="logo react" alt="React logo" />
+
+        <h1>Hello from Amplify</h1>
+      </header>
+    </div>
+  );
+}
+
+export default App;
+
